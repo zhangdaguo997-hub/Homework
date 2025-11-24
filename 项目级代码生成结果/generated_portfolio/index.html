@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio - Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Portfolio</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container grid">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Hi, I'm <span class="hero__name">Alex Johnson</span>
+                    </h1>
+                    <h2 class="hero__subtitle">Full Stack Developer</h2>
+                    <p class="hero__description">
+                        I create beautiful, functional web applications with modern technologies 
+                        and exceptional user experiences.
+                    </p>
+                    
+                    <div class="hero__buttons">
+                        <a href="#projects" class="button button--primary">View My Work</a>
+                        <a href="#contact" class="button button--secondary">Get In Touch</a>
+                    </div>
+                </div>
+                
+                <div class="hero__image">
+                    <div class="hero__blob">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#2196F3" d="M44.7,-76.4C58.8,-69.2,71.8,-59.1,79.6,-45.8C87.4,-32.6,90,-16.3,89.2,-0.5C88.4,15.3,84.2,30.6,76.1,43.4C68,56.2,56,66.5,42.2,73.6C28.3,80.7,12.7,84.6,-2.4,87.6C-17.5,90.6,-35,92.7,-49.4,86.5C-63.8,80.3,-75.2,65.9,-81.9,49.8C-88.6,33.7,-90.6,15.9,-89.5,-1.6C-88.4,-19.1,-84.1,-38.2,-74.5,-53.1C-64.9,-68,-50,-78.6,-34.4,-85.2C-18.8,-91.8,-2.4,-94.4,12.7,-89.6C27.8,-84.8,42.9,-72.6,44.7,-76.4Z" transform="translate(100 100)" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero__scroll">
+                <a href="#about" class="hero__scroll-link">
+                    <span>Scroll Down</span>
+                    <i class="ri-arrow-down-line"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__image">
+                    <div class="about__img-container">
+                        <img src="assets/profile.jpg" alt="Profile Image" class="about__img">
+                    </div>
+                </div>
+                
+                <div class="about__content">
+                    <h2 class="section__title">About Me</h2>
+                    <p class="about__description">
+                        I'm a passionate full-stack developer with 5+ years of experience 
+                        creating digital solutions. I specialize in modern web technologies 
+                        and love turning complex problems into simple, beautiful designs.
+                    </p>
+                    
+                    <div class="about__info">
+                        <div class="about__info-item">
+                            <span class="about__info-title">02+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+                        
+                        <div class="about__info-item">
+                            <span class="about__info-title">20+</span>
+                            <span class="about__info-name">Completed <br> projects</span>
+                        </div>
+                        
+                        <div class="about__info-item">
+                            <span class="about__info-title">05+</span>
+                            <span class="about__info-name">Companies <br> worked</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about__buttons">
+                        <a href="assets/resume.pdf" download class="button button--primary">
+                            Download CV
+                        </a>
+                        <a href="#contact" class="button button--secondary">
+                            Let's Talk
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Skills & Technologies</h2>
+                <p class="section__subtitle">My technical expertise and proficiency levels</p>
+                
+                <div class="skills__container grid">
+                    <!-- Frontend Skills -->
+                    <div class="skills__group">
+                        <h3 class="skills__title">Frontend</h3>
+                        <div class="skills__list">
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <span class="skill__name">React</span>
+                                    <span class="skill__percentage">90%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-level="90"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <span class="skill__name">JavaScript</span>
+                                    <span class="skill__percentage">95%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-level="95"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <span class="skill__name">CSS3</span>
+                                    <span class="skill__percentage">85%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-level="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Backend Skills -->
+                    <div class="skills__group">
+                        <h3 class="skills__title">Backend</h3>
+                        <div class="skills__list">
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <span class="skill__name">Node.js</span>
+                                    <span class="skill__percentage">88%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-level="88"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <span class="skill__name">Python</span>
+                                    <span class="skill__percentage">82%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-level="82"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <span class="skill__name">MongoDB</span>
+                                    <span class="skill__percentage">78%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-level="78"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tools & Others -->
+                    <div class="skills__group">
+                        <h3 class="skills__title">Tools & Others</h3>
+                        <div class="skills__list">
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <span class="skill__name">Git</span>
+                                    <span class="skill__percentage">92%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-level="92"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <span class="skill__name">Docker</span>
+                                    <span class="skill__percentage">75%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-level="75"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <span class="skill__name">AWS</span>
+                                    <span class="skill__percentage">70%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-level="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Featured Projects</h2>
+                <p class="section__subtitle">My recent work and personal projects</p>
+                
+                <!-- Project Filter -->
+                <div class="projects__filter">
+                    <button class="projects__filter-btn active" data-filter="all">All</button>
+                    <button class="projects__filter-btn" data-filter="web">Web Apps</button>
+                    <button class="projects__filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="projects__filter-btn" data-filter="design">Design</button>
+                </div>
+                
+                <!-- Projects Grid -->
+                <div class="projects__container grid" id="projects-grid">
+                    <!-- Project items will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+                <p class="section__subtitle">Let's work together on your next project</p>
+                
+                <div class="contact__container grid">
+                    <div class="contact__info">
+                        <h3 class="contact__info-title">Let's talk about everything!</h3>
+                        <p class="contact__info-description">
+                            Don't like forms? Send me an email. 👋
+                        </p>
+                        
+                        <div class="contact__info-item">
+                            <i class="ri-mail-line"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <span>hello@portfolio.com</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__info-item">
+                            <i class="ri-phone-line"></i>
+                            <div>
+                                <h4>Call</h4>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__info-item">
+                            <i class="ri-map-pin-line"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>San Francisco, CA</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact__form" id="contact-form">
+                        <div class="contact__form-group">
+                            <div class="contact__form-input">
+                                <input type="text" name="name" placeholder=" " class="contact__input" id="contact-name">
+                                <label for="contact-name" class="contact__label">Your Name</label>
+                                <span class="contact__form-error"></span>
+                            </div>
+                            
+                            <div class="contact__form-input">
+                                <input type="email" name="email" placeholder=" " class="contact__input" id="contact-email">
+                                <label for="contact-email" class="contact__label">Your Email</label>
+                                <span class="contact__form-error"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__form-input">
+                            <input type="text" name="subject" placeholder=" " class="contact__input" id="contact-subject">
+                            <label for="contact-subject" class="contact__label">Subject</label>
+                            <span class="contact__form-error"></span>
+                        </div>
+                        
+                        <div class="contact__form-input">
+                            <textarea name="message" placeholder=" " class="contact__input contact__textarea" id="contact-message"></textarea>
+                            <label for="contact-message" class="contact__label">Message</label>
+                            <span class="contact__form-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="button button--primary contact__button">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Portfolio</a>
+                <p class="footer__description">
+                    Full Stack Developer creating <br> 
+                    amazing digital experiences
+                </p>
+            </div>
+            
+            <div class="footer__content">
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__links">
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#projects" class="footer__link">Projects</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer__content">
+                <h3 class="footer__title">Follow Me</h3>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <i class="ri-dribbble-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer__bottom">
+            <p class="footer__copy">&copy; 2024 Portfolio. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal__content">
+            <button class="modal__close" id="modal-close">
+                <i class="ri-close-line"></i>
+            </button>
+            
+            <div class="modal__body" id="modal-body">
+                <!-- Modal content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Top -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- JavaScript -->
+    <script src="js/portfolio.js"></script>
+</body>
+</html>

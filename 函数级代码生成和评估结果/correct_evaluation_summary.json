@@ -1,0 +1,12 @@
+{
+  "total_tasks": 163,
+  "passed_tasks": 138,
+  "pass_rate": 84.66257668711657,
+  "failure_breakdown": {
+    "passed": 138,
+    "runtime_error": 8,
+    "assertion_error": 17
+  },
+  "model": "deepseek-chat",
+  "evaluation_method": "correct_with_test_execution"
+}

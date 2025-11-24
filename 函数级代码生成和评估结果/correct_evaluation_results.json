@@ -1,0 +1,1632 @@
+[
+  {
+    "task_id": "HumanEval/0",
+    "passed": true,
+    "function_name": "has_close_elements",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/3",
+    "passed": true,
+    "function_name": "below_zero",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/1",
+    "passed": true,
+    "function_name": "separate_paren_groups",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/2",
+    "passed": false,
+    "function_name": "truncate_number",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpfa094t4v.py\", line 30, in <module>\n    check(truncate_number)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\",
+    "has_assertion_error": false,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/5",
+    "passed": true,
+    "function_name": "intersperse",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/4",
+    "passed": true,
+    "function_name": "mean_absolute_deviation",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/6",
+    "passed": true,
+    "function_name": "parse_nested_parens",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/7",
+    "passed": true,
+    "function_name": "filter_by_substring",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/9",
+    "passed": true,
+    "function_name": "rolling_max",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/8",
+    "passed": true,
+    "function_name": "sum_product",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/10",
+    "passed": false,
+    "function_name": "is_palindrome",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp93k_diho.py\", line 54, in <module>\n    check(is_palindrome)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/11",
+    "passed": true,
+    "function_name": "string_xor",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/13",
+    "passed": true,
+    "function_name": "greatest_common_divisor",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/12",
+    "passed": true,
+    "function_name": "longest",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/15",
+    "passed": true,
+    "function_name": "string_sequence",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/16",
+    "passed": true,
+    "function_name": "count_distinct_characters",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/14",
+    "passed": true,
+    "function_name": "all_prefixes",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/18",
+    "passed": true,
+    "function_name": "how_many_times",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/17",
+    "passed": true,
+    "function_name": "parse_music",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/19",
+    "passed": true,
+    "function_name": "sort_numbers",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/20",
+    "passed": true,
+    "function_name": "find_closest_elements",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/21",
+    "passed": true,
+    "function_name": "rescale_to_unit",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/23",
+    "passed": true,
+    "function_name": "strlen",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/22",
+    "passed": true,
+    "function_name": "filter_integers",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/24",
+    "passed": true,
+    "function_name": "largest_divisor",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/25",
+    "passed": true,
+    "function_name": "factorize",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/27",
+    "passed": true,
+    "function_name": "flip_case",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/28",
+    "passed": true,
+    "function_name": "concatenate",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/26",
+    "passed": false,
+    "function_name": "remove_duplicates",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpqvd9rwoh.py\", line 29, in <module>\n    check(remove_duplicates)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Lo",
+    "has_assertion_error": false,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/30",
+    "passed": true,
+    "function_name": "get_positive",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/29",
+    "passed": true,
+    "function_name": "filter_by_prefix",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/33",
+    "passed": true,
+    "function_name": "sort_third",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/34",
+    "passed": true,
+    "function_name": "unique",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/35",
+    "passed": true,
+    "function_name": "max_element",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/31",
+    "passed": false,
+    "function_name": "is_prime",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpxrpy11sf.py\", line 55, in <module>\n    check(is_prime)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpxrpy11",
+    "has_assertion_error": false,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/32",
+    "passed": false,
+    "function_name": "poly",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp6lmj5ex3.py\", line 87, in <module>\n    check(poly)\n    ~~~~~^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp6lmj5ex3.py\", ",
+    "has_assertion_error": false,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/36",
+    "passed": true,
+    "function_name": "fizz_buzz",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/37",
+    "passed": true,
+    "function_name": "sort_even",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/40",
+    "passed": true,
+    "function_name": "triples_sum_to_zero",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/41",
+    "passed": true,
+    "function_name": "car_race_collision",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/42",
+    "passed": true,
+    "function_name": "incr_list",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/43",
+    "passed": true,
+    "function_name": "pairs_sum_to_zero",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/38",
+    "passed": false,
+    "function_name": "encode_cyclic",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpv_o2d9v_.py\", line 52, in <module>\n    check(encode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/39",
+    "passed": false,
+    "function_name": "is_prime",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpj7lrs67g.py\", line 72, in <module>\n    check(is_prime)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpj7lrs6",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/47",
+    "passed": true,
+    "function_name": "median",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/44",
+    "passed": true,
+    "function_name": "change_base",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/46",
+    "passed": true,
+    "function_name": "fib4",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/45",
+    "passed": true,
+    "function_name": "triangle_area",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/49",
+    "passed": true,
+    "function_name": "modp",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/48",
+    "passed": true,
+    "function_name": "is_palindrome",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/51",
+    "passed": true,
+    "function_name": "remove_vowels",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/52",
+    "passed": true,
+    "function_name": "below_threshold",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/53",
+    "passed": true,
+    "function_name": "add",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/50",
+    "passed": false,
+    "function_name": "encode_shift",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp7ts56e0v.py\", line 55, in <module>\n    check(encode_shift)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\t",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/55",
+    "passed": true,
+    "function_name": "fib",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/56",
+    "passed": true,
+    "function_name": "correct_bracketing",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/57",
+    "passed": true,
+    "function_name": "monotonic",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/54",
+    "passed": false,
+    "function_name": "same_chars",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpsvvqk99v.py\", line 46, in <module>\n    check(same_chars)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpsv",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/58",
+    "passed": true,
+    "function_name": "common",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/59",
+    "passed": true,
+    "function_name": "largest_prime_factor",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/60",
+    "passed": true,
+    "function_name": "sum_to_n",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/61",
+    "passed": true,
+    "function_name": "correct_bracketing",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/62",
+    "passed": true,
+    "function_name": "derivative",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/63",
+    "passed": true,
+    "function_name": "fibfib",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/64",
+    "passed": true,
+    "function_name": "vowels_count",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/65",
+    "passed": true,
+    "function_name": "circular_shift",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/66",
+    "passed": true,
+    "function_name": "digitSum",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/67",
+    "passed": true,
+    "function_name": "fruit_distribution",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/68",
+    "passed": true,
+    "function_name": "pluck",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/69",
+    "passed": true,
+    "function_name": "search",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/70",
+    "passed": true,
+    "function_name": "strange_sort_list",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/71",
+    "passed": true,
+    "function_name": "triangle_area",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/73",
+    "passed": true,
+    "function_name": "smallest_change",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/72",
+    "passed": true,
+    "function_name": "will_it_fly",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/74",
+    "passed": true,
+    "function_name": "total_match",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/75",
+    "passed": true,
+    "function_name": "is_multiply_prime",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/77",
+    "passed": true,
+    "function_name": "iscube",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/76",
+    "passed": true,
+    "function_name": "is_simple_power",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/78",
+    "passed": true,
+    "function_name": "hex_key",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/79",
+    "passed": true,
+    "function_name": "decimal_to_binary",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/80",
+    "passed": true,
+    "function_name": "is_happy",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/82",
+    "passed": true,
+    "function_name": "prime_length",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/83",
+    "passed": true,
+    "function_name": "starts_one_ends",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/85",
+    "passed": true,
+    "function_name": "add",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/86",
+    "passed": true,
+    "function_name": "anti_shuffle",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/81",
+    "passed": false,
+    "function_name": "numerical_letter_grade",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpk8ic4njb.py\", line 74, in <module>\n    check(numerical_letter_grade)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/87",
+    "passed": true,
+    "function_name": "get_row",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/84",
+    "passed": false,
+    "function_name": "solve",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmppju6x6tj.py\", line 46, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmppju6x6tj.py\"",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/88",
+    "passed": true,
+    "function_name": "sort_array",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/89",
+    "passed": true,
+    "function_name": "encrypt",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/90",
+    "passed": true,
+    "function_name": "next_smallest",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/92",
+    "passed": true,
+    "function_name": "any_int",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/93",
+    "passed": true,
+    "function_name": "encode",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/91",
+    "passed": true,
+    "function_name": "is_bored",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/95",
+    "passed": true,
+    "function_name": "check_dict_case",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/97",
+    "passed": true,
+    "function_name": "multiply",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/94",
+    "passed": false,
+    "function_name": "is_prime",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp649qmgx2.py\", line 58, in <module>\n    check(is_prime)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp649qmg",
+    "has_assertion_error": false,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/98",
+    "passed": true,
+    "function_name": "count_upper",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/96",
+    "passed": false,
+    "function_name": "is_prime",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpd1mfmwb6.py\", line 35, in <module>\n    check(is_prime)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpd1mfmw",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/99",
+    "passed": true,
+    "function_name": "closest_integer",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/101",
+    "passed": true,
+    "function_name": "words_string",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/100",
+    "passed": true,
+    "function_name": "make_a_pile",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/102",
+    "passed": true,
+    "function_name": "choose_num",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/103",
+    "passed": true,
+    "function_name": "rounded_avg",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/104",
+    "passed": true,
+    "function_name": "unique_digits",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/105",
+    "passed": true,
+    "function_name": "by_length",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/106",
+    "passed": true,
+    "function_name": "f",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/107",
+    "passed": true,
+    "function_name": "even_odd_palindrome",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/109",
+    "passed": true,
+    "function_name": "move_one_ball",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/108",
+    "passed": true,
+    "function_name": "count_nums",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/110",
+    "passed": true,
+    "function_name": "exchange",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/111",
+    "passed": true,
+    "function_name": "histogram",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/112",
+    "passed": true,
+    "function_name": "reverse_delete",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/114",
+    "passed": true,
+    "function_name": "minSubArraySum",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/115",
+    "passed": true,
+    "function_name": "max_fill",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/117",
+    "passed": true,
+    "function_name": "select_words",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/113",
+    "passed": false,
+    "function_name": "odd_count",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp46ud3joi.py\", line 45, in <module>\n    check(odd_count)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp46ud",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/118",
+    "passed": true,
+    "function_name": "get_closest_vowel",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/116",
+    "passed": false,
+    "function_name": "sort_array",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpy7x4bzoh.py\", line 44, in <module>\n    check(sort_array)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpy7",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/119",
+    "passed": true,
+    "function_name": "match_parens",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/120",
+    "passed": true,
+    "function_name": "maximum",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/121",
+    "passed": true,
+    "function_name": "solution",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/124",
+    "passed": true,
+    "function_name": "valid_date",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/123",
+    "passed": true,
+    "function_name": "get_odd_collatz",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/122",
+    "passed": true,
+    "function_name": "add_elements",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/125",
+    "passed": true,
+    "function_name": "split_words",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/128",
+    "passed": true,
+    "function_name": "prod_signs",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/126",
+    "passed": false,
+    "function_name": "is_sorted",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp4f5anq0o.py\", line 57, in <module>\n    check(is_sorted)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp4f5a",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/127",
+    "passed": false,
+    "function_name": "intersection",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp5fwg659w.py\", line 50, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\t",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/130",
+    "passed": false,
+    "function_name": "tri",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpj92prvih.py\", line 53, in <module>\n    check(tri)\n    ~~~~~^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpj92prvih.py\", li",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/131",
+    "passed": true,
+    "function_name": "digits",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/134",
+    "passed": true,
+    "function_name": "check_if_last_char_is_a_letter",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/132",
+    "passed": false,
+    "function_name": "is_nested",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpye5s1bia.py\", line 51, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpye5s",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/135",
+    "passed": true,
+    "function_name": "can_arrange",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/136",
+    "passed": true,
+    "function_name": "largest_smallest_integers",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/133",
+    "passed": false,
+    "function_name": "sum_squares",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpbr7cmh6z.py\", line 44, in <module>\n    check(sum_squares)\n    ~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmp",
+    "has_assertion_error": false,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/137",
+    "passed": true,
+    "function_name": "compare_one",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/138",
+    "passed": true,
+    "function_name": "is_equal_to_sum_even",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/139",
+    "passed": true,
+    "function_name": "special_factorial",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/140",
+    "passed": true,
+    "function_name": "fix_spaces",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/141",
+    "passed": true,
+    "function_name": "file_name_check",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/142",
+    "passed": true,
+    "function_name": "sum_squares",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/143",
+    "passed": true,
+    "function_name": "words_in_sentence",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/129",
+    "passed": true,
+    "function_name": "minPath",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/144",
+    "passed": true,
+    "function_name": "simplify",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/146",
+    "passed": true,
+    "function_name": "specialFilter",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/149",
+    "passed": true,
+    "function_name": "sorted_list_sum",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/148",
+    "passed": true,
+    "function_name": "bf",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/145",
+    "passed": false,
+    "function_name": "order_by_points",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpqcpigdcr.py\", line 37, in <module>\n    check(order_by_points)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/151",
+    "passed": true,
+    "function_name": "double_the_difference",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/152",
+    "passed": true,
+    "function_name": "compare",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/153",
+    "passed": true,
+    "function_name": "Strongest_Extension",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/155",
+    "passed": true,
+    "function_name": "even_odd_count",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/154",
+    "passed": true,
+    "function_name": "cycpattern_check",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/150",
+    "passed": false,
+    "function_name": "is_prime",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpyo2wgcis.py\", line 51, in <module>\n    check(is_prime)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpyo2wgc",
+    "has_assertion_error": false,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/156",
+    "passed": true,
+    "function_name": "int_to_mini_roman",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/157",
+    "passed": true,
+    "function_name": "right_angle_triangle",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/158",
+    "passed": true,
+    "function_name": "find_max",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/159",
+    "passed": true,
+    "function_name": "eat",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/161",
+    "passed": true,
+    "function_name": "solve",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "has_assertion_error": false,
+    "has_traceback": false
+  },
+  {
+    "task_id": "HumanEval/160",
+    "passed": false,
+    "function_name": "do_algebra",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmptsqob8qx.py\", line 75, in <module>\n    check(do_algebra)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpts",
+    "has_assertion_error": true,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/162",
+    "passed": false,
+    "function_name": "string_to_md5",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpqvflqkgc.py\", line 30, in <module>\n    check(string_to_md5)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp",
+    "has_assertion_error": false,
+    "has_traceback": true
+  },
+  {
+    "task_id": "HumanEval/163",
+    "passed": false,
+    "function_name": "generate_integers",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\HP\\AppData\\Local\\Temp\\tmpacp61udr.py\", line 40, in <module>\n    check(generate_integers)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\AppData\\Lo",
+    "has_assertion_error": true,
+    "has_traceback": true
+  }
+]

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Data Explorer</title>
+    <link rel="stylesheet" href="css/explorer.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.0.4/build/global/luxon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.3.1/dist/chartjs-adapter-luxon.min.js"></script>
+</head>
+<body>
+    <div class="explorer-app">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <div class="header-content">
+                <h1 class="dashboard-title">Sales Data Explorer</h1>
+                <div class="header-controls">
+                    <button class="theme-toggle" id="themeToggle">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="export-btn" id="exportBtn">
+                        <span class="export-icon">📊</span>
+                        Export Data
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="dashboard-main">
+            <!-- Filter Panel -->
+            <aside class="filter-panel" id="filterPanel">
+                <div class="filter-header">
+                    <h2>Filters</h2>
+                    <button class="filter-toggle" id="filterToggle">☰</button>
+                </div>
+                
+                <div class="filter-content">
+                    <!-- Date Range Filter -->
+                    <div class="filter-group">
+                        <label class="filter-label">Date Range</label>
+                        <div class="date-inputs">
+                            <input type="date" id="startDate" class="date-picker">
+                            <span class="date-separator">to</span>
+                            <input type="date" id="endDate" class="date-picker">
+                        </div>
+                    </div>
+
+                    <!-- Category Filter -->
+                    <div class="filter-group">
+                        <label class="filter-label">Product Categories</label>
+                        <div class="category-filters" id="categoryFilters">
+                            <!-- Dynamic category checkboxes will be inserted here -->
+                        </div>
+                    </div>
+
+                    <!-- Region Filter -->
+                    <div class="filter-group">
+                        <label class="filter-label">Regions</label>
+                        <select id="regionFilter" class="filter-select">
+                            <option value="all">All Regions</option>
+                        </select>
+                    </div>
+
+                    <!-- Sales Range -->
+                    <div class="filter-group">
+                        <label class="filter-label">Sales Range</label>
+                        <div class="range-inputs">
+                            <input type="range" id="salesRange" class="range-slider" min="0" max="10000" step="100">
+                            <div class="range-values">
+                                <span id="minSales">$0</span>
+                                <span id="maxSales">$10,000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="filter-actions">
+                        <button class="primary-btn" id="applyFilters">Apply Filters</button>
+                        <button class="secondary-btn" id="resetFilters">Reset</button>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Dashboard Content -->
+            <section class="dashboard-content">
+                <!-- Chart Controls -->
+                <div class="chart-controls">
+                    <div class="control-group">
+                        <label>Chart Type:</label>
+                        <select id="chartTypeSelector" class="control-select">
+                            <option value="bar">Bar Chart</option>
+                            <option value="line">Line Chart</option>
+                            <option value="pie">Pie Chart</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label>Time Unit:</label>
+                        <select id="timeUnitSelector" class="control-select">
+                            <option value="day">Daily</option>
+                            <option value="week">Weekly</option>
+                            <option value="month">Monthly</option>
+                        </select>
+                    </div>
+                    <button class="refresh-btn" id="refreshData">
+                        <span class="refresh-icon">🔄</span>
+                        Refresh
+                    </button>
+                </div>
+
+                <!-- Charts Grid -->
+                <div class="charts-grid">
+                    <!-- Main Chart -->
+                    <div class="chart-container main-chart">
+                        <div class="chart-header">
+                            <h3 class="chart-title" id="mainChartTitle">Sales Overview</h3>
+                            <div class="chart-actions">
+                                <button class="chart-action-btn" data-action="download">📥</button>
+                                <button class="chart-action-btn" data-action="fullscreen">⛶</button>
+                            </div>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="mainChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Secondary Charts -->
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <h3 class="chart-title">Category Distribution</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="pieChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <h3 class="chart-title">Sales Trend</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="lineChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <h3 class="chart-title">Regional Performance</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="barChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Table -->
+                <div class="data-table-container">
+                    <div class="table-header">
+                        <h3>Detailed Sales Data</h3>
+                        <div class="table-controls">
+                            <input type="text" id="tableSearch" placeholder="Search data..." class="search-input">
+                            <select id="rowsPerPage" class="control-select">
+                                <option value="10">10 rows</option>
+                                <option value="25">25 rows</option>
+                                <option value="50">50 rows</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-wrapper">
+                        <table id="salesTable" class="data-table">
+                            <thead>
+                                <tr>
+                                    <th data-sort="date">Date</th>
+                                    <th data-sort="category">Category</th>
+                                    <th data-sort="region">Region</th>
+                                    <th data-sort="sales">Sales</th>
+                                    <th data-sort="units">Units</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody">
+                                <!-- Dynamic table rows will be inserted here -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-footer">
+                        <div class="pagination-controls">
+                            <button class="pagination-btn" id="prevPage">← Previous</button>
+                            <span class="page-info" id="pageInfo">Page 1 of 1</span>
+                            <button class="pagination-btn" id="nextPage">Next →</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Loading Overlay -->
+        <div class="loading-overlay" id="loadingOverlay">
+            <div class="loading-spinner"></div>
+            <p>Loading data...</p>
+        </div>
+
+        <!-- Toast Notifications -->
+        <div class="toast-container" id="toastContainer"></div>
+    </div>
+
+    <script src="js/explorer.js"></script>
+</body>
+</html>
